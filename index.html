@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RecipeJS – Part 3</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>🍳 RecipeJS – Functional Cooking Companion</h1>
+
+<div class="controls">
+  <div class="filter-group">
+    <button data-filter="all" class="active">Show All</button>
+    <button data-filter="easy">Easy</button>
+    <button data-filter="medium">Medium</button>
+    <button data-filter="hard">Hard</button>
+    <button data-filter="quick">Quick (&lt; 30 mins)</button>
+  </div>
+
+  <div class="sort-group">
+    <button data-sort="none" class="active">Default Order</button>
+    <button data-sort="name">Name (A–Z)</button>
+    <button data-sort="time">Time</button>
+  </div>
+</div>
+
+<div id="recipe-container"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
